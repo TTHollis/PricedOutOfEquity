@@ -1,0 +1,11 @@
+# Raw downloads (several GB; links in Data/Raw/README.md)
+Data/Raw/*
+!Data/Raw/README.md
+
+# Intermediates the notebook rebuilds
+Data/Processed/*.parquet
+
+# Secrets and system files
+.env
+.ipynb_checkpoints/
+__pycache__/
